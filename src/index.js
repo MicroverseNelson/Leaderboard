@@ -11,7 +11,7 @@ function component() {
   const myIcon = new Image();
   myIcon.src = Todd;
   element.appendChild(myIcon);
-return element;
+  return element;
 }
 
-  document.body.appendChild(component());
+document.body.appendChild(component());
