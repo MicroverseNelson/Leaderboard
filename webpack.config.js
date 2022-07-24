@@ -7,7 +7,6 @@ module.exports = {
   devServer: {
     static: './dist',
   },
-  
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Leaderboard',
@@ -21,7 +20,6 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
-  
   module: {
     rules: [
       {
