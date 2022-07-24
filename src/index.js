@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Todd from './Todd.jpg';
+
 function component() {
   const element = document.createElement('div');
   // Lodash, currently included via a script, is required for this line to work
@@ -10,7 +11,7 @@ function component() {
   const myIcon = new Image();
   myIcon.src = Todd;
   element.appendChild(myIcon);
-  return element;
-  }
-  
+return element;
+}
+
   document.body.appendChild(component());
